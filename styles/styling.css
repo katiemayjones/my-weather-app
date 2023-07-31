@@ -1,0 +1,71 @@
+body {
+  max-width: 600px;
+}
+
+.myLocationButton {
+  border-radius: 10px;
+  margin: 5px;
+  border-color: #144054;
+  color: #144054;
+  background-color: fffff;
+  box-shadow: 2px 2px 4px #949597;
+}
+
+.container {
+  font-family: rajdhani;
+  color: #3b3b3d;
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  border: #949597 1px solid;
+  position: relative;
+  overflow: hidden;
+  width: 600px;
+  height: 340px;
+  transform: translate(70%, 50%);
+}
+
+#background-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+  opacity: 0.3;
+  border-radius: 10px;
+  padding: 0px;
+}
+
+.currentInfo {
+  text-align: right;
+  font-size: 14px;
+}
+
+.precipitation {
+  text-align: right;
+  font-size: 11px;
+}
+
+.mainIcon {
+  font-size: 100px;
+}
+
+form {
+  padding: 10px;
+}
+i {
+  color: #144054;
+}
+footer {
+  font-size: 10px;
+}
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+  color: #144054;
+}
